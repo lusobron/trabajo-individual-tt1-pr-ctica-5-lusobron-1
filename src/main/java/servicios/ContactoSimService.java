@@ -105,7 +105,6 @@ public class ContactoSimService implements InterfazContactoSim {
     @Override
     public DatosSimulation descargarDatos(int ticket) {
         ResultsResponse respuesta = resultadosApi.resultadosPost(NOMBRE_USUARIO, ticket);
-        System.out.println("DATA CRUDA RECIBIDA: " + respuesta.getData());
         return parsearResultado(respuesta);
     }
 

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219dd30b-dec9-48e3-b818-c74645ea7eec" name="Changes" comment="" />
+    <list default="true" id="219dd30b-dec9-48e3-b818-c74645ea7eec" name="Changes" comment="pr5">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/servicios/ContactoSimService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicios/ContactoSimService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/solicitud.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/solicitud.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -28,6 +35,7 @@
     </option>
   </component>
   <component name="ProjectId" id="3FaYul0YuvyZJk2ZZsaFvkhmxMv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -75,14 +83,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in trabajo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="trabajo" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test_ContactoSimService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="trabajo" />
       <extension name="coverage">
@@ -98,6 +98,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test_EnviarEmailsService" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="trabajo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tt1.trabajo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tt1.trabajo" />
+      <option name="MAIN_CLASS_NAME" value="com.tt1.trabajo.Test_EnviarEmailsService" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TrabajoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="trabajo" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tt1.trabajo.TrabajoApplication" />
@@ -107,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Test_EnviarEmailsService" />
+        <item itemvalue="JUnit.Test_ContactoSimService" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="JUnit.All in trabajo (2)" />
-        <item itemvalue="JUnit.Test_ContactoSimService" />
         <item itemvalue="JUnit.All in trabajo (1)" />
-        <item itemvalue="JUnit.All in trabajo" />
       </list>
     </recent_temporary>
   </component>
@@ -124,12 +139,42 @@
       <option name="presentableId" value="Default" />
       <updated>1782314872125</updated>
       <workItem from="1782314873901" duration="627000" />
-      <workItem from="1782315608348" duration="17819000" />
+      <workItem from="1782315608348" duration="24252000" />
     </task>
+    <task id="LOCAL-00001" summary="pr5">
+      <created>1782373357460</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1782373357460</updated>
+    </task>
+    <task id="LOCAL-00002" summary="pr5">
+      <created>1782373499581</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1782373499581</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="pr5" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr5" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

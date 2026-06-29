@@ -1,0 +1,21 @@
+services:
+
+  spring-app:
+    image: practica5-spring:latest
+    ports:
+      - "8081:8081"        # Spring escucha en 8081
+    environment:
+      - SERVICIO_CONSUMIBLE_HOST=servicio-consumible
+    depends_on:
+      - servicio-consumible
+    networks:
+      - trabajo-individual-net
+
+  servicio-consumible:
+    image: javillour/servicio-tt1:amd64
+    # Sin ports: invisible desde fuera del Compose
+    networks:
+      - trabajo-individual-net
+
+networks:
+  trabajo-individual-net:

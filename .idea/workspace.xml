@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219dd30b-dec9-48e3-b818-c74645ea7eec" name="Changes" comment="pr5_final">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="219dd30b-dec9-48e3-b818-c74645ea7eec" name="Changes" comment="pr6">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +62,8 @@
     <option name="myCommands">
       <command value="mvn clean generate-sources" />
       <command value="mvn clean package" />
+      <command value="mvn package" />
+      <command value="mvn package -DskipTests" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TrabajoApplication">
@@ -141,6 +144,7 @@
       <workItem from="1782314873901" duration="627000" />
       <workItem from="1782315608348" duration="24905000" />
       <workItem from="1782731381579" duration="1162000" />
+      <workItem from="1782762422666" duration="3504000" />
     </task>
     <task id="LOCAL-00001" summary="pr5">
       <created>1782373357460</created>
@@ -163,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1782406798520</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="pr6">
+      <created>1782762470586</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1782762470586</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +194,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pr5" />
     <MESSAGE value="pr5_final" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr5_final" />
+    <MESSAGE value="pr6" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr6" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>

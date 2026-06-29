@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="219dd30b-dec9-48e3-b818-c74645ea7eec" name="Changes" comment="pr5">
+    <list default="true" id="219dd30b-dec9-48e3-b818-c74645ea7eec" name="Changes" comment="pr5_final">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/servicios/ContactoSimService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/servicios/ContactoSimService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/solicitud.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/solicitud.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +60,7 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean generate-sources" />
+      <command value="mvn clean package" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.TrabajoApplication">
@@ -139,7 +139,8 @@
       <option name="presentableId" value="Default" />
       <updated>1782314872125</updated>
       <workItem from="1782314873901" duration="627000" />
-      <workItem from="1782315608348" duration="24252000" />
+      <workItem from="1782315608348" duration="24905000" />
+      <workItem from="1782731381579" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="pr5">
       <created>1782373357460</created>
@@ -155,7 +156,14 @@
       <option name="project" value="LOCAL" />
       <updated>1782373499581</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pr5_final">
+      <created>1782406798520</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1782406798520</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,7 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pr5" />
-    <option name="LAST_COMMIT_MESSAGE" value="pr5" />
+    <MESSAGE value="pr5_final" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr5_final" />
   </component>
   <component name="XDebuggerManager">
     <pin-to-top-manager>
